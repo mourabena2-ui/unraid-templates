@@ -20,7 +20,7 @@ Modern Web UI: Responsive dashboard with real-time sync monitoring&#xD;
 Smart NFO Formatting: Regex patterns, date formatting, name cleaning&#xD;
 Administration Tools: Database and file management built-in</Overview>
   <Category>Downloaders: MediaApp:Video MediaServer:Video Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:6655]</WebUI>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/mourabena2-ui/xtream-to-strm-web/refs/heads/main/frontend/public/logo.png</Icon>
   <ExtraParams/>
@@ -33,4 +33,5 @@ Administration Tools: Database and file management built-in</Overview>
   <Config Name="db" Target="/db" Default="" Mode="rw" Description="Sqlite database path" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/xtream-to-strm-web/db</Config>
   <Config Name="/output" Target="/output" Default="" Mode="rw" Description="Path of the generated strm enf nfo files" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/media/m3u/</Config>
   <Config Name="Port" Target="8000" Default="" Mode="tcp" Description="Web access port : 8000 is the internal web app port" Type="Port" Display="always" Required="false" Mask="false">6655</Config>
+
 </Container>
