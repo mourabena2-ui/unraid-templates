@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/195571-support-xtream-to-strm-docker-app</Support>
   <Project>https://github.com/mourabena2-ui/xtream-to-strm-web</Project>
   <Overview>Xtream-to-STRM Web generates local STRM files and metadata from user-supplied Xtream Codes–compatible or M3U IPTV playlists. 
     This allows media servers such as Jellyfin or Kodi to reference IPTV streams as part of their local libraries.
@@ -20,3 +20,4 @@
   <Config Name="/output" Target="/output" Default="" Mode="rw" Description="Path of the generated strm enf nfo files" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/media/m3u/</Config>
   <Config Name="Port" Target="8000" Default="" Mode="tcp" Description="Web access port : 8000 is the internal web app port" Type="Port" Display="always" Required="false" Mask="false">6655</Config>
 </Container>
+
